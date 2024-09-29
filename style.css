@@ -71,10 +71,9 @@ section {
     border-radius: 10px;
     background-color: #ffffffc3;
 }
-.card:hover, 
-.image:hover {
+.card:hover, .image:hover {
     transition: .5s ease;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.35); /* Nilai alpha lebih besar */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.35);
 }
 
 .card:hover {
