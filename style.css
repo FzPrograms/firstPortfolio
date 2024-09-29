@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+section {
+    height: 300vh;
+    background: url(main_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.layer{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10%;
+}
+.layer h1, h2 {
+    text-transform: uppercase;
+}
+.layer h1 {
+    line-height: 1;
+    font-size: 12em;
+    font-weight: 900;
+    background-image: url(main_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: text;
+    color: transparent;
+}
+.layer h2 {
+    font-weight: 200;
+    font-size: 2em;
+}
+
+.section2 {
+    text-align: center;
+    height: 150vh;
+    padding: 10% 15%;
+    color: white;
+    background: url(1344005.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section2 h1 {
+    font-size: 40px;
+    color: white;
+    padding-bottom: 30px;
+    text-transform: none;
+}
+.wrapper{
+    display: grid;
+    position: relative;
+    border-radius: 20px;
+    padding: 3%;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: #ffffff70;
+}
+.wrapper .card {
+    text-decoration: none;
+    position: relative;
+    color: #111;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ffffffc3;
+}
+
+.section3 {
+    padding: 10%;
+    height: 70vh;
+}
+.section3 h1 {
+    font-size: 2em;
+    padding-bottom: 20px;
+    color: white;
+}
+.section3 .wrapper p {
+    color: #111;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 550px;
+    height: 400px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 550px;
+    height: 400px;
+}
+.gmap_iframe {
+    width: 550px !important;
+    height: 400px !important;
+}
